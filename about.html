@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About- EMS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/EMMANUEL (1).png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">PROGRAMS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!------- about us content -------->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Our Goal</h1>
+          <p>
+            A community arts school, Emmanuel Music School is
+            dedicated to offering high-quality music experiences to interested
+            people of all ages, skill levels, and financial backgrounds. Since
+            its founding in 2006, Emmanuel Music School has provided weekly
+            access to over 250 students in churches. For students of all ages
+            and skill levels, Emmanuel Music School provides on-site courses,
+            seminars, and private lessons. Stringed instruments, percussion,
+            piano, and voice are just a few of the instruments that our
+            instructors, who are all experienced musicians, specialize in
+            teaching. From complete novices to seasoned musicians honing their
+            skill, our students range widely.
+          </p>
+          <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <!-- <h1>ABOUT ME</h1> -->
+          <h2>Professor Emmanuel Antwi- Music Background</h2>
+          <p>
+            Emmanuel Oppong Antwi brings approximately 28 years of 
+            professional musical experience here as a music instructor, 
+            performer, recording vocalist, originator, and songwirter. 
+            Emmanuel began his career as a teacher by establishing a music 
+            department in Abuakwa, Maakro, in Kumasi, Ghana, where he taught 
+            music and directed all the church bands and choir. He subsequently 
+            went on to work as a music teacher in many Abuakwa school 
+            districts, where he taught instrumental music, band, orchestra, 
+            and music education and employment. Emmanuel currently focuses his 
+            teaching activities as a private lesson instrumental instructor, 
+            providing music classes such as private piano lessons, bass guitar 
+            lessons, lead guitar lessons, drum lessons, voice training, and 
+            several others at his private school of music in Abuakwa, Maakro, 
+            in Kumasi, Ghana. Emmanuel is also involved in the realm of music 
+            technology. He creates his own records in his multi-track home 
+            recording studio, encompassing a wide spectrum of music, from 
+            contemporary music to jazz. These quantum dots include his songs 
+            and arrangements, as well as Emmanuel's abilities as a 
+            multi-instrumentalist, who plays the piano, string instruments, 
+            brass, and drums.
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="images/prof.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+      <h4>Follow Us</h4>
+      <div class="icons">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.whatsapp.com/"><i class="fa fa-whatsapp"></i></a>
+      </div>
+      <p>
+        Developed by Ebenezer A. Made with ❤️ in Colorado © 2023 Emmanuel Music School. All rights
+        reserved.
+      </p>
+    </section>
+
+    <!----JavaScript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

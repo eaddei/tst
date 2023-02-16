@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/EMMANUEL (1).png"/></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">PROGRAMS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & In-Person Programs For 2023</h1>
+    </section>
+
+    <!---------- Blog Page Content ---------->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/graduate.jpg" />
+          <h2>Our Certificate In-Person Programs This Year</h2>
+
+          <p>
+            In this program you will gain the versatile skills you 
+            need to start or develop your career as a musician today. 
+            This customized program allows you to earn an advanced 
+            professional certificate in general music studies by choosing 
+            eight courses from any area of ​​interest.
+          </p>
+          <br />
+          <p>
+            Acquire performance skills, knowledge of time, harmony, 
+            tonality, timbre, and groove, as well as compositional 
+            strategies like tritones and pedal points. You can play 
+            the blues by learning all the necessary rhythms, riffs, 
+            licks, leads, and solos with the EMS Guitar Department. 
+            Examine the keyboard terms used in the gospel, highlife, and 
+            jazz genres before concentrating on solo improvisation. 
+            You'll become a more capable and imaginative keyboard player 
+            by the end of the course. Learn various keyboard performance 
+            techniques, starting with the masters' signature riffs and 
+            licks, and then expand your repertoire and improve your 
+            improvisational abilities. Learn the fundamentals of chords 
+            and scales, as well as the subtleties of improvisation, form, 
+            and inflection that will advance your guitar playing. Learn 
+            the foundational elements of the guitar—chords and scales—as 
+            well as the more complex elements—improvisation, form, and 
+            inflection—that will advance your playing. Learn the essential 
+            approaches and techniques for crafting powerful lyrics, and 
+            you'll be able to express yourself more effectively in your 
+            music. Develop your analytical listening skills, concentrate 
+            your critical eye on your material, and strengthen your 
+            songwriting craft as you gain an understanding of vocal 
+            technique across genres that will help you expand your 
+            repertoire, using more effectively, and literally find your 
+            own unique voice.
+          </p>
+          
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter email" />
+              <textarea rows="5" placeholder="Add Your Comment"></textarea>
+              <!-- <button type="submit" value="Comment" class="hero-btn red-btn"> -->
+              <button value="comment" button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+           
+    
+            </form>
+          </div>
+        </div>
+
+        <!-- Script -->
+        <script src="plugin.js"></script>
+
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Piano</span>
+            <span>Mon-Sat (8am - 6pm)</span>
+          </div>
+          <div>
+            <span>Bass Guitar</span>
+            <span>Mon-Sat (8am - 6pm)</span>
+          </div>
+          <div>
+            <span>Drums</span>
+            <span>Mon-Sat (8am - 6pm)</span>
+          </div>
+          <div>
+            <span>Voice</span>
+            <span>Mon-Sat (8am - 6pm)</span>
+          </div>
+          <div>
+            <span>Lead Guitar</span>
+            <span>Mon-Sat (8am - 6pm)</span>
+          </div>
+          <div>
+            <span>Acoustic Guitar</span>
+            <span>Mon-Sat (8am - 6pm)</span>
+          </div>
+          <div>
+            <span>Brass</span>
+            <span>Mon-Sat (8am - 6pm)</span>
+          </div>
+          <div>
+            <span>Percussion</span>
+            <span>Mon-Sat (8am - 6pm)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+      <h4>Follow Us</h4>
+      <div class="icons">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.whatsapp.com/"><i class="fa fa-whatsapp"></i></a>
+      </div>
+      <p>
+        Developed by Ebenezer A. Made with ❤️ in Colorado © 2023 Emmanuel Music
+        School. All rights reserved.
+      </p>
+    </section>
+
+    <!----JavaScript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
+<!-- NOte -->
+<!-- Provide a method. Overwrite the submit button  -
